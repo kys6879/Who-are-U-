@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <!--
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="150dp"
+        android:textSize="50dp"
+        android:text="당신은"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:layout_marginLeft="100dp"
+        android:textSize="40dp"
+        android:text="누구십니까 ?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        -->
+
+
+
+
+</LinearLayout>

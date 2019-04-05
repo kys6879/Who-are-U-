@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:background="#F5ECCE"
+    >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:text="음성메세지 전달"
+        android:id="@+id/textViewReciev"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="server-ip"
+        android:ems="10"
+        android:layout_below="@+id/textViewReciev"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:id="@+id/addressText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Send message"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:id="@+id/messageText"
+        android:layout_below="@+id/portText"
+        android:layout_alignStart="@+id/portText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="port"
+        android:ems="10"
+        android:id="@+id/portText"
+        android:layout_below="@+id/addressText"
+        android:layout_alignStart="@+id/addressText" />
+
+    <Button
+        android:background="@drawable/clear"
+        android:text="clear"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/buttonClear"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/messageText"
+        android:layout_alignEnd="@+id/tv_portmsg" />
+
+    <Button
+        android:background="@drawable/send"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/buttonConnect"
+        android:layout_above="@+id/tv_portmsg"
+        android:layout_alignStart="@+id/tv_portmsg" />
+
+    <TextView
+        android:textColor="#ff0000"
+        android:textSize="20dp"
+        android:id="@+id/tv_portmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonClear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="기본 포트 번호는 [8888] 입니다." />
+
+
+</RelativeLayout>

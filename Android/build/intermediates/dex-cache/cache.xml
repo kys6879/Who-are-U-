@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/intel/.android/build-cache/eb9c4528f5ff495fbe222d48229b8691d7dadce0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/intel/Downloads/Choinjong_socket/app/build/intermediates/pre-dexed/debug/classes_2c657c7b3ca3f4fd57f4de5c0543df8b08899842.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/intel/.android/build-cache/38f86295c5f46eb8398f014cda62450301ddba5a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/intel/Downloads/Choinjong_socket/app/build/intermediates/pre-dexed/debug/classes_e62fbacd588b1277e62b34b9a1bbbee03218f338.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/intel/android_sourcecode/part2/09/Choinjong_socket/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/intel/android_sourcecode/part2/09/Choinjong_socket/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b959ababef98905d31f8d24af1448940e4d099fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/intel/.android/build-cache/779f0d6d853d62251cfa851fd530d8c1259c5aa4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/intel/Downloads/Choinjong_socket/app/build/intermediates/pre-dexed/debug/classes_84ec7cf061d3dc201307c27c06e96924b1431e57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/intel/.android/build-cache/b43ec932979b37d2bfff6523f7354779300d920b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/intel/Downloads/Choinjong_socket/app/build/intermediates/pre-dexed/debug/classes_05584848f546fd6988f2aa7b972bed2936c6627d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/intel/android_sourcecode/part2/09/Choinjong_socket/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="679ef28fb60659d8b82e4328b347cebe90c75ffc">
+        <dex dex="/home/intel/android_sourcecode/part2/09/Choinjong_socket/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ed23554abb3cab2fc10b18ad13ed474a1368a58f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/intel/.android/build-cache/af3235ef32bf4115139d08041b4d0186a62b1667/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/intel/Downloads/Choinjong_socket/app/build/intermediates/pre-dexed/debug/classes_6d3379f32f609ab6f430d7f4e33edf17ffae8738.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/intel/.android/build-cache/c8261eb78524c02f4f931d5274a7150db2fde657/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/intel/Downloads/Choinjong_socket/app/build/intermediates/pre-dexed/debug/classes_0df16f58d79a2949ee5abf199565bb8b75668160.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/intel/.android/build-cache/da19481444a34e78e0bf5cfcf23d2cbb4a77c53a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/intel/Downloads/Choinjong_socket/app/build/intermediates/pre-dexed/debug/classes_489482ad56ea2b647c6ab3595cca467c4ca10097.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/intel/.android/build-cache/c1c2a0754529d713838d32efdce6ee9810ba81d2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/intel/Downloads/Choinjong_socket/app/build/intermediates/pre-dexed/debug/classes_6aec7e44fc6a4f1d620c81ae2ecf76b197e72ed0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/intel/.android/build-cache/9eaed9a69043b85da3c7fc6f69a64c958ea38c9b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/intel/Downloads/Choinjong_socket/app/build/intermediates/pre-dexed/debug/classes_00408499d6131c90f0cc3ef6e49de2242265665e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/intel/.android/build-cache/61e00fa73011de1c1da8b4e42dd117cb8e0ce09d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/intel/Downloads/Choinjong_socket/app/build/intermediates/pre-dexed/debug/classes_90d8e350aede29d8f75673d50b2026208064c680.jar" />
+    </item>
+
+</items>

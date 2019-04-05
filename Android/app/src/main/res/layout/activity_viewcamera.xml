@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#F5ECCE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/web_camera"
+        android:layout_width="match_parent"
+        android:layout_height="380dp">
+
+
+    </WebView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:background="@drawable/icon_pic"
+            android:id="@+id/btn_shoot"
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/btn_movieshoot"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/icon_reg"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

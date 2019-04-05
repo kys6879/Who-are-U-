@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="10dp"
+    android:background="#F5ECCE"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
     android:paddingTop="10dp"
     >
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="16dp"
-        android:textColor="@color/colorAccent"
-        android:text="Hello World!"
-        android:id="@+id/textViewReciev" />
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="평촌경영고 주니어 창조학교"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="server-ip"
-        android:ems="10"
-        android:layout_below="@+id/textViewReciev"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="31dp"
-        android:id="@+id/addressText" />
+    <TextView
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="IoT프로젝트"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Send message"
-        android:ems="10"
-        android:layout_marginTop="10dp"
-        android:id="@+id/messageText"
-        android:layout_below="@+id/portText"
-        android:layout_alignStart="@+id/portText" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="port"
-        android:ems="10"
-        android:id="@+id/portText"
-        android:layout_below="@+id/addressText"
-        android:layout_alignStart="@+id/addressText" />
 
     <Button
-        android:text="clear"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonClear"
-        android:layout_alignBaseline="@+id/buttonConnect"
-        android:layout_alignBottom="@+id/buttonConnect"
-        android:layout_alignEnd="@+id/messageText" />
+        android:background="@drawable/sos"
+        android:text=""
+        android:id="@+id/btn_sos"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
 
-    <Button
-        android:text="Send"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonConnect"
-        android:layout_below="@+id/messageText"
-        android:layout_alignStart="@+id/messageText"
-        android:layout_marginTop="13dp" />
 
-</RelativeLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:background="@drawable/tts"
+
+                android:id="@+id/btn_tts"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <Button
+                android:background="@drawable/camera"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/btn_viewcamera"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

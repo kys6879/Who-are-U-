@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#F5ECCE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="비상연락처 저장"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#FF0000"
+            android:layout_width="wrap_content"
+            android:text="이름 : "
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/ed_name"
+            android:hint="이름 입력"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#FF0000"
+            android:layout_width="wrap_content"
+            android:text="전화번호 : "
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/ed_phonenumber"
+            android:hint="번호 입력"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#FF0000"
+            android:layout_width="wrap_content"
+            android:text="SOS 메세지 : "
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/ed_sosmsg"
+            android:hint="문구 입력"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/submit"
+
+        android:id="@+id/btn_sossubmit"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+
+
+
+</LinearLayout>
